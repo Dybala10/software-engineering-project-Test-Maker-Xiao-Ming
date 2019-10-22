@@ -1,0 +1,27 @@
+
+<view style="margin-top:150rpx;">
+<view style="content-align:center">
+  <view>
+  <image class="hat" src='{{using_site}}'></image>
+  </view>
+  <image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+  <view class="nickname">你好呀！{{userInfo.nickName}}</view>
+</view>
+</view>
+<view style="flex-direction: row;display: flex;" >
+  <view class="grade" style="font-weight:bold">当前积分：{{grade}}</view>
+</view>
+<view class="detail" bindtap="gotodetail" hover-class="navigator-hover">——·关于积分·——</view>
+
+<button class="gotoshop" hover-class="navigator-hover" bindtap="gotoshop">
+积分商店
+</button>
+<button class="gotoware" hover-class="navigator-hover" bindtap="gotoware">
+个人仓库
+</button>
+<button class="gotocj" hover-class="navigator-hover" bindtap="gotocj">
+成就大厅
+</button>
+
+<button class="info" wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+<view wx:else>请升级微信版本</view>

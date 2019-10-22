@@ -1,0 +1,39 @@
+<view style="font-weight:bold; margin-left:275rpx;">当前积分：{{grade}}</view>
+<view style="font-weight:bold;">头像顶部装饰</view>
+<view style="flex-direction: row;display: flex;">
+  <view class="bian1" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_1}}" bindtap="buy1_1">
+    <image class="good1_1" src="maozi/tianshi.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">天使</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">消耗积分：120</view>
+  </view>
+  <view class="bian2" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_2}}" bindtap="buy1_2">
+    <image class="good1_1" src="../ware/flower.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">花朵</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">消耗积分：120</view>
+  </view>
+  <view class="bian3" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_3}}" bindtap="buy1_3">
+    <image class="good1_1" src="../ware/leaf.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">小草</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">消耗积分：120</view>
+  </view>
+  <view class="bian4" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_4}}" bindtap="buy1_4">
+    <image class="good1_1" src="../ware/king.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">皇冠</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">消耗积分：200</view>
+  </view>
+  <view class="bian5" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_5}}" bindtap="buy1_5">
+    <image class="good1_1" src="../ware/gcap.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">毕业帽</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">消耗积分：200</view>
+  </view>
+  <view class="bian6" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_6}}" bindtap="buy1_6">
+    <image class="good1_1" src="../ware/party.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">派对帽</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">消耗积分：200</view>
+  </view>
+  <view class="bian7" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_7}}" bindtap="buy1_7">
+    <image class="good1_1" src="../ware/no1.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">一飞冲天</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">消耗积分：350</view>
+  </view>
+</view>

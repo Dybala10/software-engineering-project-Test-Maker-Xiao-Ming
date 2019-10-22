@@ -1,0 +1,23 @@
+view{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  margin-top: 20rpx;
+}
+.fanhui{
+  width: 350rpx;
+  height: 100rpx;
+  font-weight: bold;
+  position:fixed;
+  bottom: 100rpx;
+  margin-left: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+page{
+  background-image: url("http://a3.qpic.cn/psb?/V11vfLm8278fQT/i*4Tq2XUBvTcxt9DGQaHH4oHXr1QwlfRgRT*B*RJwM8!/b/dFIBAAAAAAAA&ek=1&kp=1&pt=0&bo=dwEsA3cBLAMDEDU!&tl=1&vuin=851895650&tm=1570356000&sce=60-1-1&rf=viewer_311");
+}

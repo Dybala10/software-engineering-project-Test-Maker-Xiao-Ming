@@ -1,0 +1,120 @@
+view{
+  width:100%;
+  height:40rpx;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+navigator{
+  width: 50%;
+  text-align: center;
+  margin-top: 40rpx;
+  margin-left: 25%;
+}
+/* .tian{
+  font-size:30rpx;
+  color: black;
+  margin-top: 150rpx;
+} */
+ 
+.swiperBanner{
+  width:100%;
+  height:700rpx !important;
+  margin:0 auto; 
+  margin-top: 150rpx;
+}
+.swiperBanner image{
+  width:100%;
+  left: 20%;
+  height:600rpx ;
+}
+swiper {
+  width:100%;
+  height:600rpx !important;
+  align-self: center;
+}
+page{
+  background: #FFD6D4;
+}
+.btn1{
+  background-color: #FB5050;
+  color: white;
+  width: 50%;
+  margin-top: 100rpx;
+  border-radius: 100rpx;
+}
+
+.btn2{
+  background-color: #0ABFEC;
+  color: white;
+  width: 50%;
+  margin-top: 50rpx;
+  border-radius: 100rpx;
+}
+
+.block{
+  color:black;
+  left: 0rpx;
+  flex-direction: row;
+  display: flex;
+}
+
+.days{
+  font-size: 100rpx;
+  color: black;
+  margin-top: 60rpx;
+}
+.rili1{
+  align-content: center
+}
+.rilii{
+  color: black;
+  margin-top: 110rpx;
+}
+.rilit{
+  color: black;
+  margin-top: 0rpx;
+}
+.view_parent_container{
+  width: 400rpx;
+  height: 700rpx;
+  color: black;
+  margin-left: 175rpx;
+}
+.nv1{
+  background-color:#FB5050;
+  color: white;
+  width: 50%;
+  border-radius: 100rpx;
+}
+.nv1::after {
+  border-radius: 98rpx;
+  border: 0;
+}
+.block_bottom{
+  background-color:white;
+  display: flex;
+  margin-top: 200rpx;
+  position: flex;
+  bottom: 0rpx;
+  height: 150rpx;
+  align-content: center;
+}
+.shouye{
+  margin-top: 35rpx;
+  position: flexed;
+  bottom: 0rpx;
+}
+.cuotiben{
+  margin-top: 36rpx;
+  position: flexed;
+  bottom: 0rpx;
+}
+.wode{
+  margin-top: 35rpx;
+  position: flexed;
+  bottom: 0rpx;
+}
+page{
+  background-image: url("http://a3.qpic.cn/psb?/V11vfLm8278fQT/i*4Tq2XUBvTcxt9DGQaHH4oHXr1QwlfRgRT*B*RJwM8!/b/dFIBAAAAAAAA&ek=1&kp=1&pt=0&bo=dwEsA3cBLAMDEDU!&tl=1&vuin=851895650&tm=1570356000&sce=60-1-1&rf=viewer_311");
+}

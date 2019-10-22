@@ -1,0 +1,12 @@
+<view style="font-size: 50rpx;margin-top:200rpx;">——·积分说明·——</view>
+<view style="margin-top:50rpx;">每日完成打卡即可获得15积分</view>
+<view>完成对应课程的30道题按照以下分类获得对应得分</view>
+<view>·错题数0   —— 5积分</view>
+<view>·错题数1-3 —— 3积分</view>
+<view>·错题数4-9 —— 1积分</view>
+<view>·错题数≥10 —— 0积分</view>
+<view>时间到了仍未完成题目将不得分！</view>
+<view>获得的积分可以在积分商城中使用！</view>
+<view style="font-size: 50rpx;margin-top:50rpx;">——·说明完毕·——</view>
+<view class="fanhui" bindtap="goback">点击此处返回</view>
+

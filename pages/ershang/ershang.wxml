@@ -1,0 +1,23 @@
+<view class="block">
+  <view class="rili">
+    <view class="rili1">
+      
+      <text class="rilit" space="nbsp">  所选教材  </text>
+      <image class="rilii" style="width: 20rpx; height: 20rpx;" mode="scaleToFill" src="jiantou.png"></image>
+    </view>      
+  </view>    
+  <view class="days" style="flex-item">
+  二年级上册
+  </view> 
+</view>
+<view class='swiperBanner'>
+  
+      <button class="goto1" hover-class="navigator-hover" bindtap="goto1">混合加减法</button>
+      <button class="goto2" hover-class="navigator-hover" bindtap="goto2">九九乘法表</button>
+      <button class="goto3" hover-class="navigator-hover" bindtap="goto3"><image style="margin-bottom:0rpx;width: 50rpx; height: 50rpx;" src="flame.png"></image><text space="nbsp">    总复习       </text></button>
+      <button class="btn1" hover-class="navigator-hover" bindtap="navigateBack">返回</button>
+      <button class="btn2" hover-class="navigator-hover" open-type='share'>分享给好友</button>
+      
+</view>
+
+

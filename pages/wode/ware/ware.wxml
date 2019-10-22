@@ -1,0 +1,44 @@
+<view style="font-weight:bold; margin-left:300rpx;">个人仓库</view>
+<view style="font-weight:bold;">头像顶部装饰</view>
+<view style="flex-direction: row;display: flex;">
+  <view class="bian1" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_0}}" bindtap="use1_0">
+    <image class="good1_1" src="kong.png" style="opacity:0"></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">无</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">{{can1_0}}</view>
+  </view>
+  <view class="bian2" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_1}}" bindtap="use1_1">
+    <image class="good1_1" src="../shop/maozi/tianshi.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">天使</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">{{can1_1}}</view>
+  </view>
+  <view class="bian3" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_2}}" bindtap="use1_2">
+    <image class="good1_1" src="flower.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">花朵</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">{{can1_2}}</view>
+  </view>
+  <view class="bian4" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_3}}" bindtap="use1_3">
+    <image class="good1_1" src="leaf.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">小草</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">{{can1_3}}</view>
+  </view>
+  <view class="bian5" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_4}}" bindtap="use1_4">
+    <image class="good1_1" src="king.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">皇冠</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">{{can1_4}}</view>
+  </view>
+  <view class="bian6" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_5}}" bindtap="use1_5">
+    <image class="good1_1" src="gcap.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">毕业帽</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">{{can1_5}}</view>
+  </view>
+  <view class="bian7" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_6}}" bindtap="use1_6">
+    <image class="good1_1" src="party.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">派对帽</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">{{can1_6}}</view>
+  </view>
+  <view class="bian8" style="background-color:#F2F1D7;border: solid 10rpx;border-radius: 10%;opacity:{{t1_7}}" bindtap="use1_7">
+    <image class="good1_1" src="no1.png" ></image>
+    <view style="font-size:25rpx;margin-top:20rpx;font-weight:bold;">一飞冲天</view>
+    <view style="font-size:25rpx;margin-bottom:20rpx;font-weight:bold;">{{can1_7}}</view>
+  </view>
+</view>

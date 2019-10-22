@@ -1,0 +1,8 @@
+page{
+  background-image: url("http://a3.qpic.cn/psb?/V11vfLm8278fQT/i*4Tq2XUBvTcxt9DGQaHH4oHXr1QwlfRgRT*B*RJwM8!/b/dFIBAAAAAAAA&ek=1&kp=1&pt=0&bo=dwEsA3cBLAMDEDU!&tl=1&vuin=851895650&tm=1570356000&sce=60-1-1&rf=viewer_311");
+}
+.jp1{
+  margin-top: 150rpx;
+  margin-left: 110rpx;
+  font-weight:bold;
+}

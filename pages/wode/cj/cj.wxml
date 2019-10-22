@@ -1,0 +1,30 @@
+<view style="font-size:65rpx;font-weight:bold;margin-left:85rpx;">——·成就大厅·——</view>
+<view style="display:flex;flex-direction:row;">
+<view class="jp1">
+<image src="{{dizhi1}}" style="width:210rpx;height:270rpx;" bindtap="more1"></image>
+<view style="text-align: center;">消灭500道题</view>
+<progress percent="{{bili1}}" style="opacity:{{show1}}"></progress>
+<view style="text-align: center;font-size: 20rpx;opacity:{{show1}};">{{tishu}}/500</view>
+</view>
+<view class="jp1">
+<image src="{{dizhi2}}" style="width:210rpx;height:270rpx;" bindtap="more2"></image>
+<view style="text-align: center;">消灭1000道题</view>
+<progress percent="{{bili2}}" style="opacity:{{show2}}"></progress>
+<view style="text-align: center;font-size: 20rpx;opacity:{{show2}};">{{tishu}}/1000</view>
+</view>
+</view>
+
+<view style="display:flex;flex-direction:row;">
+<view class="jp1">
+<image src="{{dizhi3}}" style="width:210rpx;height:270rpx;" bindtap="more3"></image>
+<view style="text-align: center;">消灭2000道题</view>
+<progress percent="{{bili3}}" style="opacity:{{show3}}"></progress>
+<view style="text-align: center;font-size: 20rpx;opacity:{{show3}};">{{tishu}}/2000</view>
+</view>
+<view class="jp1">
+<image src="{{dizhi4}}" style="width:210rpx;height:270rpx;"  bindtap="more4"></image>
+<view style="text-align: center;">拥有7个装饰</view>
+<progress percent="{{bili4}}" style="opacity:{{show4}}"></progress>
+<view style="text-align: center;font-size: 20rpx;opacity:{{show4}};">{{buyshu}}/7</view>
+</view>
+</view>

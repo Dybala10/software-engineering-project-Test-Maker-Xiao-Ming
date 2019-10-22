@@ -1,0 +1,46 @@
+<view class="dingbu">
+  <view><image class="logo1" src="biao.png"></image></view><view class="wenzi1"><text>今日做题数</text><text space="emsp">\n{{datishu}}/30</text></view>
+  <view><image class="logo2" src="kulian.png"></image></view><view class="wenzi1"><text>错题数</text><text space="emsp">\n{{cuotishu}}</text></view>
+  <view><image class="logo3" src="shizhong.png"></image></view><view class="wenzi1"><text>剩余时间</text><text space="emsp">\n{{countDownNum}}秒</text></view>
+</view>
+<progress percent="{{jindu}}" color="pink" />
+
+<template name="suanshi">
+  <view class="equ" style="font-size:100rpx" display="false">
+    {{num1}}{{sym1}}{{num2}}{{sym2}}{{num3}}
+  </view>
+</template>
+<view>
+  <view>
+    <view>
+      <template is="suanshi" data="{{...item1}}"></template>
+    </view>
+    <view style="flex-direction: row;display: flex;">
+      <view style="font-size:50rpx;margin-top:125rpx;margin-left:150rpx;margin-right:0rpx;font-weight:bold">答案:</view>
+      <input type="digit" style="font-size:100rpx; height:100rpx; margin-top:100rpx;margin-right:150rpx;" maxlength="4" bindinput="isitright" value="{{value_num}}"></input>
+    </view>
+  </view>
+<view wx:if="{{isShow}}" style="margin-top:250rpx; color:red; font-weight:bold; width:100rpx,height:100rpx" >
+<image class="yihan" src="kulianS.png"></image>
+</view>
+<view style="margin-top:200rpx; color:red; font-weight:bold">
+{{huhu}}
+</view>
+</view>
+<view>
+  <view class="tijiao" type="flex-direction: column;display: flex">
+    <button class="queding" type="button" size="mini" bindtap="checkit" disabled="{{jinzhi}}" style="opacity:{{xiaoshi}}">
+    <text style="color:white; font-size:38rpx;">确定</text>
+    </button>
+    <view class="container">
+      
+        <button class="fanhui" bindtap="sure">返回</button>
+      
+    </view>
+  </view>
+    
+  
+</view>
+
+
+

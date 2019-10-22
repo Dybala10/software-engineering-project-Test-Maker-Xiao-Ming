@@ -1,0 +1,17 @@
+<view style="opacity:0">
+{{what}}{{daan}}
+</view>
+<view class="array">
+第{{num+1}}道错题
+</view>
+<view class="array1">
+{{what}}
+</view>
+<view class="array2" style="opacity:{{xiaoshi}}">
+{{daan}}
+</view>
+
+<button class="xiayige" bindtap="xiayige">下一道题</button>
+<button class="shangyige" bindtap="shangyige">上一道题</button>
+<button class="show" bindtap="show">答案</button>
+<button class="shanchu" bindtap="shanchu">删除</button>

@@ -1,0 +1,39 @@
+<view class="block">
+  <view class="rili">
+    <view class="rili1">
+      <image class="rilii" style="width: 30rpx; height: 30rpx;" mode="scaleToFill" src="rili.png"></image>
+      <text class="rilit" space="nbsp" style="font-weight:bold;">  打卡天数  </text>
+      <image class="rilii" style="width: 20rpx; height: 20rpx;" mode="scaleToFill" src="jiantou.png"></image>
+    </view>      
+  </view>    
+  <view class="days" style="flex-item;">
+  {{day_num}}天
+  </view> 
+</view>
+
+<view class='swiperBanner'>
+  
+    <swiper indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}' circular='{{circular}}' bindchange="change_num">
+      <swiper-item  wx:for="{{imgUrls}}" wx:key='{{index}}'>
+        <view class="view_parent_container">
+        <view>
+        <image src="{{item.url}}" class="slide-image" mode="aspectFit" position ="fixed" bindtap="daka"></image>
+        </view>
+        </view> 
+      </swiper-item>
+    </swiper>
+
+    <view class="section">
+      
+        <button class="btn1" hover-class="navigator-hover" bindtap="daka">学习</button>
+      
+        <button class="btn2" hover-class="navigator-hover" open-type='share'>分享给好友</button>
+    
+      
+    </view>
+    <view opacity="0">{{t}}{{time}}</view>
+</view>
+
+
+
+

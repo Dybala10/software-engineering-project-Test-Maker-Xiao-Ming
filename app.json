@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/fp/fp",
+    "pages/wode/wode",
+    "pages/wode/detail/detail",
+    "pages/panduan/panduan",
+    "pages/wode/shop/shop",
+    "pages/wode/ware/ware",
+    "pages/wode/cj/cj",
+    "pages/cuotiben/cuotiben",
+    "pages/yishang/yishang",
+    "pages/yishang/yi/yi",
+    "pages/yishang/er/er",
+    "pages/yishang/all/all",
+    "pages/yixia/yixia",
+    "pages/yixia/yi/yi",
+    "pages/yixia/er/er",
+    "pages/yixia/all/all",
+    "pages/ershang/ershang",
+    "pages/ershang/yi/yi",
+    "pages/ershang/er/er",
+    "pages/ershang/all/all",
+    "pages/erxia/erxia",
+    "pages/erxia/yi/yi",
+    "pages/erxia/er/er",
+    "pages/erxia/all/all",
+    "pages/sanshang/sanshang",
+    "pages/sanshang/yi/yi",
+    "pages/sanshang/er/er",
+    "pages/sanshang/san/san",
+    "pages/sanshang/all/all",
+    "pages/sanxia/sanxia",
+    "pages/sanxia/yi/yi",
+    "pages/sanxia/er/er",
+    "pages/sanxia/san/san",
+    "pages/sanxia/all/all"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "color": "#000000",
+    "borderStyle":"white",
+    "list":[{
+      "pagePath":"pages/fp/fp",
+      "text":"首页",
+      "iconPath":"pages/yishang/shouye.png",
+      "selectedIconPath":"pages/yishang/shouyeS.png"
+    },
+    {
+      "pagePath": "pages/panduan/panduan",
+      "text": "错题本",
+      "iconPath": "pages/yishang/cuotiben.png",
+      "selectedIconPath": "pages/yishang/cuotibenS.png"
+    },
+    {
+      "pagePath": "pages/wode/wode",
+      "text": "我的",
+      "iconPath": "pages/yishang/wode.png",
+      "selectedIconPath": "pages/yishang/wodeS.png"
+    }
+    ]
+  }
+}

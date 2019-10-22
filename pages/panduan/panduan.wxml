@@ -1,0 +1,6 @@
+<view class="info">
+{{tell}}
+</view>
+<button class="go" style="opacity:{{xiaoshi}}" disabled="{{can}}" bindtap="go">
+进入错题本
+</button>
